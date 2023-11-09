@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Gabarito', sans-serif;
+  background-color: #070524;
+  color: #ababab;
+}
+
+h1 {
+  margin: 3% 6%;
+}
+
+h2 {
+  margin: 1% 6%;
+  font-weight: 100;
+  font-size: 100%;
+}
+
+.nomeLocal{
+  font-weight: bold;
+  font-size: 120%;
+  color: #b6b86b;
+}
+
+#imgInicial { 
+  max-width: 100%;
+  filter: opacity(65%);
+}
+
+ul{
+    list-style-type: none;
+    line-height:2;
+    padding-left: 0;
+    display: flex; 
+    justify-content: space-around;
+    background-color: #0c093a;
+}
+
+a {
+  text-decoration:none;
+  color: #c6c904;  
+}
+
+footer {
+  text-align: center; 
+  padding: 3%;
+  font-size: 80%;
+}
+
+p {
+  
+  padding: 1%;
+}
+
+section {
+  margin-top: 2%;
+  padding: 2%;
+}
